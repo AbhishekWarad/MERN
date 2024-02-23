@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-decoration:wavy red underline;
+}
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+}
+h2{
+    font-weight: 2000;
+    text-decoration:double green line-through;
+}
+h3{
+    text-decoration: overline;
+    
+}
+
+p{
+    font-weight: bolder;
+    line-height: 2.5;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}

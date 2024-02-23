@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    color: red;
+    text-align: center;
+    line-height: 30px
+}
+
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    background-color: blueviolet;
+}
+
+textarea{
+    color: #000000;
+}
+span{
+    text-decoration: underline;
+}

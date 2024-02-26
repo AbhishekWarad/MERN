@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 255, 0, 0.2);
+    margin:0 auto;
+    transition:2s ease-in-out 0.5s;
+}
+
+div:hover{
+    background-color: rgba(0, 0, 255, 0.2);
+    border-radius: 50%;
+}

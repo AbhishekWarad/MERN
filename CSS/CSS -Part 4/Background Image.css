@@ -1,0 +1,10 @@
+div{
+    background-color: lightblue;
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 2px 2px 10px gray; 
+    background-image: url(forest.jpg);
+    background-size: contain;
+}

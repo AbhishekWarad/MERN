@@ -1,0 +1,41 @@
+section{
+    height: 400px;
+    width: 200px;
+    margin: 0 auto;   
+    margin-top: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: bisque;
+    margin:20px auto;
+}
+div:nth-of-type(1n){
+    background-color: lightskyblue;
+}
+
+div:nth-of-type(2n){
+    background-color: lightgreen;
+}
+
+div:nth-last-of-type(3n){
+    background-color: lightsalmon;
+}
+
+#one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform:scale(2);
+}
+
+#three{
+    transform:translateX(-100px)
+}
+
+#four{
+    transform: skew(45deg);
+}

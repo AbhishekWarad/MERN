@@ -1,0 +1,19 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid lightblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#container div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: grey;
+}

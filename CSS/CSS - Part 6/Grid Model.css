@@ -1,0 +1,14 @@
+.container{
+    height: 300px;
+    width: 600px;
+    display: grid;
+    background-color: yellow
+}
+
+.item{
+    height: 50px;
+    width:100px;
+    text-align: center;
+    background-color: red;
+    border: 2px solid black;
+}

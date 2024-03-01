@@ -1,0 +1,32 @@
+.box{
+    width:300px;
+    height:100px;
+    background-color: pink;
+
+    animation-name:ColorAnimation;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+
+    animation: ColorAnimation 5s ease-in 0s infinite normal;
+}
+
+@keyframes ColorAnimation {
+    0%{
+        background-color: pink;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    80%{
+        background-color: purple;
+    }
+    
+    100%{
+        background-color: blue;
+    }
+}

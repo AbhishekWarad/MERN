@@ -1,0 +1,46 @@
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+
+/*     
+    animation-name: WidthAnimation;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+
+    animation: FontAndWidth 2s ease-in 0s infinite normal; /*animation shorthand*/
+}
+
+@keyframes FontAndWidth {
+    from{
+        font-size: 10px;
+        width: 50px;
+    }
+    to{
+        font-size: 50px;
+        width: 300px;
+    }
+    
+}
+
+@keyframes FontAnimation{
+    from{
+        font-size: 30px;
+    }
+    to{
+        font-size: 50px;
+    }
+}
+
+@keyframes WidthAnimation {
+    from{
+        width: 400px;
+    }
+    to{
+        height: 200px;;
+    }
+}

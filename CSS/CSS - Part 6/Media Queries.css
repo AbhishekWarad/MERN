@@ -1,0 +1,50 @@
+h1{
+    background-color: yellow;
+    border:2px solid black
+}
+
+@media (width:400px) {
+    h1{
+        background-color: red;
+    }
+    div{
+        height: 30px;
+        width: 30px;
+        background-color: purple;
+    }
+
+}
+
+@media (min-width:600px){
+    h1{
+        background-color: purple;
+    }
+    div{
+        height: 30px;
+        width: 30px;
+        background-color: green;
+    }
+}
+
+@media (max-width:700px){
+    h1{
+        background-color: brown;
+    }
+    div{
+        height: 30px;
+        width: 30px;
+        background-color: violet;
+    }
+}
+
+
+@media (min-width:300px) and (max-width:600px){
+    h1{
+        background-color: brown;
+    }
+    div{
+        height: 30px;
+        width: 30px;
+        background-color: violet;
+    }
+}

@@ -43,3 +43,44 @@
     background-color: pink;
 }
 
+@media (max-width:720px){
+    #container{
+        width: 700px;
+    }
+
+    .header{
+        grid-column: 1/13;
+        background-color: pink;
+    }
+
+    .navigation{
+        grid-row:2/3;
+        grid-column: 1/13;
+        background-color: pink;
+    }
+    
+    .sidebar{
+        grid-row: 3/12;
+        grid-column: 1/4;
+        background-color: pink;
+    }
+    
+
+    .main{
+        grid-row: 3/12;
+        grid-column: 4/13;
+        background-color: pink;
+    }
+    
+    .ads{
+        grid-row: 12/13;
+        grid-column: 1/4;
+        background-color: pink;
+    }
+    
+    .footer{
+        grid-row: 12/13;
+        grid-column: 4/13;
+        background-color: pink;
+    }
+}

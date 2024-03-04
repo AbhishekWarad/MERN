@@ -1,0 +1,80 @@
+/* .container2{
+    height: 100px;
+    width: 2000px;
+    background-color: pink;
+    border-radius: 12px;
+} */
+body{
+    background-color: black;
+}
+
+.container{
+    width: 450px;
+    height: 500px;
+    padding: 12px;
+    
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid yellow;
+    border-radius: 7px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    gap: 7px;
+}
+
+
+.box{
+    flex-basis: 60px;
+    flex-grow: 0;
+    border: 2px solid grey;
+}
+
+
+#one{
+    flex-basis: 300px;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    background-color: yellow;
+}
+
+#two{
+    flex-basis: 300px;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    background-color: yellow;
+}
+
+/* .box{
+    flex-basis: 100px; */
+    /* background-color: rgb(223, 212, 212); */
+    /* border: 2px solid black;
+    border-radius: 16px;
+}
+
+#one{
+    flex-basis: 100px;
+    align-self: baseline;
+    background-color: yellow;
+}
+
+#two{
+    flex-basis: 100px;
+    
+    align-self: baseline;
+    background-color: lightblue;
+}
+#three{
+    flex-basis: 100px;
+    align-self: baseline;
+    background-color: lightseagreen;
+}
+#four{
+    flex-basis: 100px;
+    align-self: baseline;
+    background-color: lightgoldenrodyellow;
+} */

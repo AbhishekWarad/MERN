@@ -1,9 +1,16 @@
 .container{
     display: flex;
-    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    border: 2px solid yellow;
     background-color: gray;
+    gap: 7px;
 }
 
 .box{
-
+    height: 300px;
+    width: 100px;
+    background-color: rgb(223, 212, 212);
+    border: 2px solid black;
+    border-radius: 16px;
 }

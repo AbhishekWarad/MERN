@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let password =  "  abhishek warad adakljd    ";
 
 console.log(password.trim());
@@ -39,3 +40,5 @@ console.log(str_replace.replace("a","b"));
 let str_repeat = "Mango";
 
 console.log(str_repeat.repeat(3));
+=======
+>>>>>>> d529a2f243731909b68ca7f37ef0685331f7caab

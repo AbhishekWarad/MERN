@@ -24,3 +24,18 @@ let str_slice = "ILoveCoding";
 console.log(str_slice.slice(1,5));
 console.log(str_slice.slice(1));
 console.log(str_slice.slice(-1,-5));
+
+// replace 
+
+let str_replace = "ILoveCoding";
+
+console.log(str_replace.replace("Love","do"));
+console.log(str_replace.replace("o","x"));
+console.log(str_replace.replace("a","b"));
+
+
+// repeat 
+
+let str_repeat = "Mango";
+
+console.log(str_repeat.repeat(3));

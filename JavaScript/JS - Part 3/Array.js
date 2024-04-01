@@ -29,3 +29,29 @@ fruits[0] = "Bannana";
 
 console.log(fruits);
 
+fruits[10] = "Kiwi"; // intersting
+console.log(fruits);
+
+
+// ARRAY METHODS
+
+// push : add at the end and return length of array
+
+let cars = ["audi" , "bmw" , "xuv" , "maruthi"];
+cars.push("toyota");
+console.log(cars);
+
+// pop : delete at the end and return the deleted 
+
+cars.pop();
+console.log(cars);
+
+// unshift : add at start and return length of array
+
+cars.unshift("toyata");
+console.log(cars);
+
+// shift : delete at end and return the deleted
+
+cars.shift();
+console.log(cars);

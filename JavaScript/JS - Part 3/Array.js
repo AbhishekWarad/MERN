@@ -55,3 +55,18 @@ console.log(cars);
 
 cars.shift();
 console.log(cars);
+
+// indexOf : index of something
+
+let primary = ["red" , "yellow" , "blue"];
+
+console.log(primary.indexOf("yellow"));
+console.log(primary.indexOf("green"));
+console.log(primary.indexOf("Yellow"));
+
+
+// indices : search for a value . returns boolean
+
+console.log(primary.includes("red"));
+console.log(primary.includes("green"));
+console.log(primary.includes('Blue'));

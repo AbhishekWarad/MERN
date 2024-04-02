@@ -101,3 +101,10 @@ console.log("c : "+c); //["black","grey","blue","orange"]
 
 console.log('c.splice(2,0,"yellow","purple") : '+c.splice(2,0,"yellow","purple")); //[]
 console.log("c : "+c); // ["black","grey","yellow","purple","blue","orange"]
+
+
+// sort : sorts an array
+
+let sort_cars = ["toyota" , "gwagon" , "xuv" , "maruthi" , "bmw" , "ferrari"];
+
+console.log("sort_cars.sort() : "+sort_cars.sort()); // [bmw,ferrari,gwagon,maruthi,toyota,xuv]

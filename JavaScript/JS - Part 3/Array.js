@@ -108,3 +108,8 @@ console.log("c : "+c); // ["black","grey","yellow","purple","blue","orange"]
 let sort_cars = ["toyota" , "gwagon" , "xuv" , "maruthi" , "bmw" , "ferrari"];
 
 console.log("sort_cars.sort() : "+sort_cars.sort()); // [bmw,ferrari,gwagon,maruthi,toyota,xuv]
+
+
+// ---------- NESTED ARRAY -----------------
+
+let nums = [[2,4],[3,6],[4,8]];

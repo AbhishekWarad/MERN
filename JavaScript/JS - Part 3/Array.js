@@ -74,8 +74,30 @@ console.log(primary.includes('Blue'));
 // slice : copies a portion of an array
 
 let colors = ["red","yellow","blue","orange","pink","white"];
-console.log(colors);
+
+console.log(colors);//["red","yellow","blue","orange","pink","white"]
+
 console.log("colors.slice() : "+colors.slice());     //["red","yellow","blue","orange","pink","white"]
 console.log("colors.slice(2) :"+colors.slice(2));    //["blue","orange","pink","white"]
 console.log("colors.slice(2,3) :"+colors.slice(2,3));      //["blue"]
 console.log("colors.slice(-2) :"+colors.slice(-2));   //["pink","white"]
+
+console.log(colors); //["red","yellow","blue","orange","pink","white"]
+
+// splice : removes/replaces/add element in a place
+
+let c = ["red","yellow","blue","orange","pink","white"];
+
+console.log(c); //["red","yellow","blue","orange","pink","white"]
+
+console.log("c.splice(4) : "+c.splice(4)); //["pink","white"]
+console.log("c : "+c); //["red","yellow","blue","orange"]
+
+console.log("c.splice(0,1) : "+c.splice(0,1)); // ["red"]
+console.log("c : "+c); //["yellow","blue","orange"]
+
+console.log('c.splice(0,1 , "black" , "grey") : '+c.splice(0,1 , "black" , "grey")); //["yellow"]
+console.log("c : "+c); //["black","grey","blue","orange"]
+
+console.log('c.splice(2,0,"yellow","purple") : '+c.splice(2,0,"yellow","purple")); //[]
+console.log("c : "+c); // ["black","grey","yellow","purple","blue","orange"]

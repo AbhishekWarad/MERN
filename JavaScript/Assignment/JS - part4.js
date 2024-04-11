@@ -1,7 +1,7 @@
 
-// Qs1 - WriteaJSprogramtodeletealloccurrencesofelement‘num’inagivenarray
-//         Example:ifarr=[1,2,3,4,5,6,2,3]&num=2
-//         Resultshouldbearr=[1,3,4,5,6,3]
+// Qs1 - Write a JS program to delete all occurrences of element ‘num’ in a given array
+//         Example : if arr = [1,2,3,4,5,6,2,3] & num = 2
+//         Result should be arr = [1,3,4,5,6,3]
 
 
 let arr = [1,2,3,4,5,6,2,3,1,21,2,3];
@@ -13,3 +13,16 @@ for(let i = 0; i < arr.length; i++){
 }
 
 console.log(arr);
+
+
+// qs2 - Write a JS program to find the no of digits in a number
+// Example:if number = 287152, count = 6
+
+let number = 287152;
+str_number=number.toString();
+count = 0;
+for(i of str_number){
+    count++
+}
+
+console.log("COUNT =",count);

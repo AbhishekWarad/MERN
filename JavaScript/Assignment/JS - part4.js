@@ -63,3 +63,48 @@ for( let i = f_number;i>0;i--){
 }
 
 console.log(f_result);
+
+// qs 5
+
+let arr_number = [1,2,3,3,4,5,6,7];
+let largest = 0;
+
+for(let i = 0; i<arr_number.length;i++){
+    if(arr_number[i] > largest){
+        largest = arr_number[i];
+    }
+}
+
+console.log(`${largest} is the largest`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(arr_number[0]>arr_number[1]){
+//     if (arr_number[0]>arr_number[2]) {
+//         console.log(arr_number[0],"is greater");
+//     } else {
+//         console.log(arr_number[2],"is greater");
+//     }
+// } else{
+//     if (arr_number[1]>arr_number[2]) {
+//         console.log(arr_number[1],"is greater");
+//     } else {
+//         console.log(arr_number[2],"is greater");
+//     }
+// }
+
+
+

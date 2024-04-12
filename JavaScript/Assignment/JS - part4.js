@@ -50,3 +50,16 @@ while(true){
 
 }
 console.log(sum);
+
+
+// qs 4 - Print the factorial of a number n.
+
+let f_number = 0;
+
+let f_result = 1;
+
+for( let i = f_number;i>0;i--){
+    f_result *= i;
+}
+
+console.log(f_result);

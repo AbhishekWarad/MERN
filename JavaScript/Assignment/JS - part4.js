@@ -22,7 +22,31 @@ let number = 287152;
 str_number=number.toString();
 count = 0;
 for(i of str_number){
-    count++
+    count++;
 }
 
 console.log("COUNT =",count);
+let add = 0;
+for (i of str_number) {
+   add += i;
+}
+console.log(add);
+
+
+// qs 3 - Write a JS program to find the sum of digits in a number.
+// Example : if number = 287152, sum = 25
+
+let n =  287152;
+let sum = 0;
+while(true){
+    r=n%10;
+    sum += r;
+    if (((n/10) | 0) != 0) {
+        n=(n/10) | 0 ;
+    } else{
+        break;
+    }
+    
+
+}
+console.log(sum);

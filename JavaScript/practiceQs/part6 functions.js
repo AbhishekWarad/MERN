@@ -15,3 +15,13 @@ function rollDice() {
 }
 
 rollDice();
+
+
+// pq3 - create a function that gives us the avreage of 3 numbers.
+
+
+function avgOfThree(a,b,c) {
+    console.log((a+b+c)/3);
+}
+
+avgOfThree(2,12,2343);

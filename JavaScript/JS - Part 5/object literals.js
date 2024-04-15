@@ -1,7 +1,7 @@
 // create object for a thread/twitter post 
 
 const post ={
-    usename: "@abhishek warad",
+    username: "@abhishek warad",
     content: "This is my first post",
     likes: 150,
     reposts: 5,
@@ -9,7 +9,7 @@ const post ={
 }
 
 console.log(post["username"]);
-console.log(post.usename);
+console.log(post.username);
 
 const obj = {
     1:"a",

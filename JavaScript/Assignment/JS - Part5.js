@@ -3,5 +3,14 @@
 let rand_number = Math.ceil(Math.random()*6);
 
 
-// qs 2 -
+// qs 2 - Create an objet representing a car that stores the folling properties for the car: name,model,color.
 
+let car = {
+    name :"maruthi",
+    model : "Alto 800",
+    color : "white"
+}
+console.log(car.name);
+
+
+//qs 3 -

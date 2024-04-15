@@ -14,3 +14,14 @@ console.log(car.name);
 
 
 //qs 3 -
+
+let Person = {
+    name : "Abhishek Warad",
+    age : "23",
+    city : "bengaluru"
+}
+
+Person.city = "New York";
+Person.county = "United States";
+
+console.log(Person);

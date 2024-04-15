@@ -25,3 +25,11 @@ function avgOfThree(a,b,c) {
 }
 
 avgOfThree(2,12,2343);
+
+
+// pq4 - Create a function that prints the multipliation table of a number.
+function tableOf(n) {
+    for(i=0;i<=10;i++){
+        console.log(`${n} * ${i} = ${n * i} `);
+    }
+}

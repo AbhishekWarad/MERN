@@ -30,7 +30,14 @@ while (true) {
     if (guess == random) {
         console.log(`Great! you guess it right. It was ${random}`)
         break;
-    } else {
-        guess = prompt(`Incorrect Guess! Please guess again`);
     }
+
+    if(guess != random){
+        if (guess > random) {
+            guess = prompt("Please guess smaller number");
+        }
+        else if (guess < random){
+            guess =  prompt("Please guess greater number");
+        }
+    } 
 }

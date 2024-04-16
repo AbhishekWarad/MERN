@@ -47,3 +47,21 @@ function sumOf(n){
 }
 
 console.log(sumOf(5));
+
+
+// pq6 - create a function that returns the concatenation of all strings in an array.
+
+function stringConcat(a) {
+    let arr = a;
+    let result = "";
+    for (const i of arr) {
+        result = result + i + " ";
+    }
+    return result;
+}
+
+let a = ["abhishek" , "warad"]
+
+let b=stringConcat(a);
+
+console.log(b);

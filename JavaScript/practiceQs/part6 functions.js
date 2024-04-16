@@ -33,3 +33,17 @@ function tableOf(n) {
         console.log(`${n} * ${i} = ${n * i} `);
     }
 }
+
+
+
+// pq5 - create a Funtion that returns the sum of numbers from 1 to n.
+
+function sumOf(n){
+    sum = 0;
+    for(i=1;i<=n;i++){
+        sum +=i;
+    }
+    return sum;
+}
+
+console.log(sumOf(5));

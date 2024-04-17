@@ -51,3 +51,20 @@ function longestString(arr) {
 
 let country=["Australia","Germany","United States of America"];
 console.log(longestString(country));
+
+
+// qs4 - Write a JavaScript function to count the number of vowels in a String argument.
+
+let n = "abhishek";
+function countOf(str) {
+    let count = 0;
+    let vowels = "aeiou";//["a" , "e" , "i" , "o", "u"];
+    for(i of str){
+        if(vowels.indexOf(i) != -1){
+            count++;
+        }
+    }
+    console.log(count);
+}
+
+countOf(n);

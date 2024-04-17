@@ -70,7 +70,7 @@ function countOf(str) {
 countOf(n);
 
 
-// qs5 -
+// qs5 - Write a JavaScript function to generate a randomnumber with in a range(start,end).
 
 function randomOf(start, end){
     let a = Math.floor(Math.random() * ((end+1) - start)) + start;

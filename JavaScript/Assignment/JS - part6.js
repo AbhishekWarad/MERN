@@ -68,3 +68,11 @@ function countOf(str) {
 }
 
 countOf(n);
+
+
+// qs5 -
+
+function randomOf(start, end){
+    let a = Math.floor(Math.random() * ((end+1) - start)) + start;
+    console.log(a);
+}

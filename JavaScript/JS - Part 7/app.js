@@ -24,3 +24,31 @@ try {
 
 console.log("printing after try catch block");
 
+// arrow function 
+
+const sum = (a, b) => {
+    console.log(a+b);
+}
+
+sum(3,4);
+
+add = (a,b) => {
+    console.log(a+b);
+}
+
+add(4,5);
+add(10,2);
+
+//add = 10;
+console.log(add);
+add(1,2);
+
+
+const mul =(a,b) => (a*b);
+console.log(mul(2,3)); //6
+
+const mul1 =(a,b) => {a*b};
+console.log(mul1(2,3)); //Undified
+
+const mul2 =(a,b) => {return a*b};
+console.log(mul2(2,3)); //Undified

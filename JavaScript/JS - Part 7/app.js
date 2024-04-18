@@ -51,4 +51,29 @@ const mul1 =(a,b) => {a*b};
 console.log(mul1(2,3)); //Undified
 
 const mul2 =(a,b) => {return a*b};
-console.log(mul2(2,3)); //Undified
+console.log(mul2(2,3)); //6
+
+
+// set timeout
+
+function sum1() {
+    console.log(10+20);
+}
+
+
+console.log("log written BEFORE setTimeout ");
+let id = setTimeout(sum1 , 2000);
+console.log("log written AFTER setTimeout ");
+
+clearTimeout(id1);
+
+// set interval
+
+let id2 = setInterval(() => {
+    console.log("abhishek");
+} , 2000);
+console.log("warad");
+clearInterval(id2);
+
+
+

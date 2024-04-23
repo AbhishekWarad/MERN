@@ -84,3 +84,18 @@ let arr4 = [2,4,1,5,6,7,1,3,5,9];
 
 let even = arr4.filter((num) => (num % 2 == 0));
 console.log(even);
+
+// 4. Every (AND operator)
+console.log();
+console.log("*******************   EVERY  **********************");
+console.log();
+let a =[1,2,3,4].every((el) => (el % 2 == 0));
+console.log(a);
+
+// 5. some (OR operator)
+console.log();
+console.log("*******************   SOME  **********************");
+console.log();
+
+let c =[1,2,3,4].some((el) => (el % 2 == 0));
+console.log(c);

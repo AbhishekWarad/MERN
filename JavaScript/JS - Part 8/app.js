@@ -99,3 +99,10 @@ console.log();
 
 let c =[1,2,3,4].some((el) => (el % 2 == 0));
 console.log(c);
+
+// 6. reduce 
+console.log();
+console.log("*******************   REDUCE  **********************");
+console.log();
+let d =[1,2,3,4].reduce((res , el) => (res + el ));
+console.log(d);

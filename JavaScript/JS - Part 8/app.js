@@ -106,3 +106,31 @@ console.log("*******************   REDUCE  **********************");
 console.log();
 let d =[1,2,3,4].reduce((res , el) => (res + el ));
 console.log(d);
+
+
+
+// default parameters
+console.log();
+console.log("*******************   DEFAULT PARAMETERS  **********************");
+console.log();
+
+function add(a , b=2){
+    return a+b;
+}
+
+res = add(2);
+console.log(res);
+
+
+// spread 
+console.log();
+console.log("*******************   SPREAD  **********************");
+console.log();
+
+arr  = [1 ,1,2,3,4,5,6,7,8,8,9,234,2,34,78,1,2 ];
+
+console.log(...arr);
+console.log(Math.min(...arr));
+
+arr = ["abhishek" , "warad" , 1 ,2,34]
+console.log(...arr);

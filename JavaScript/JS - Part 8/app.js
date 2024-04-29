@@ -134,3 +134,59 @@ console.log(Math.min(...arr));
 
 arr = ["abhishek" , "warad" , 1 ,2,34]
 console.log(...arr);
+
+let newArr = [...arr];
+console.log(newArr);
+
+let chars = [..."abhishek warad"];
+console.log(chars);
+
+let odd = [1,3,5,7,9];
+even = [2,4,6,8];
+
+let num = [...odd , ...even];
+console.log(num);
+
+
+let data = {
+    email: "abhishekwarad123@gmail.com",
+    password : "abcd"
+}
+
+let copyData = {
+    ...data, id: 2
+}
+
+console.log(copyData);
+
+arr = [1,2,3,4,5,6];
+
+let obj = {
+    ...arr , id:"warad"
+}
+
+console.log(obj);
+
+let string = "abhishek warad";
+
+let obj2 = {
+    ...string, id:"warad"
+}
+console.log(obj2);
+
+arr = [{
+    name : "abhishek",
+    l_name : "warad"
+},
+{
+    name : "adarsh", 
+    l_name : "jange"
+}]
+
+console.log(arr);
+
+obj = {
+    ...arr
+}
+
+console.log(obj);

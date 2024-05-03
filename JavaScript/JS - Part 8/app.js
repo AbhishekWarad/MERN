@@ -31,9 +31,10 @@ console.log(arr1);
 let  b =arr1.forEach((i) => {
     console.log(i.name )
     console.log(i.marks )
-    console.log(i.city = "ka32" )
-    console.log(i)
-    return i;
+    i.city = "ka32";
+    console.log(i.city);
+    //console.log(i)
+    //return i;
 });
 
 console.log(arr1);

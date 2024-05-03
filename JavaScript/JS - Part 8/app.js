@@ -205,3 +205,24 @@ function sum(...args){
 }
 
 sum(1,2,34,5,6,7,7);
+
+function min(){
+    console.log(arguments);
+}
+
+min(1,2,3,4 ,3,4,5);
+
+function min(msg , ...args){
+    console.log(msg);
+    return args.reduce((min , el) => {
+        if(el < min){
+            return el;
+        } else {
+            return min;
+        }
+    })
+}
+
+res = min("minimum no is : ",34,12,5,6,32,12,4,1,54,3);
+console.log(res);
+

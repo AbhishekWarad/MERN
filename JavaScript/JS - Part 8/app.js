@@ -242,3 +242,32 @@ let [winners , ...others] = names;
 console.log("winners :",winners);
 
 console.log("others :",others)
+
+
+students = {
+    name : "abhishek warad",
+    age : 23 ,
+    class : 12,
+    subjects : ["math","science", "English"],
+    username : "abhishekwarad123",
+    password : "warad94444",
+    city : "mumbai"
+}
+
+let {username , password} = students;
+
+console.log(username);
+console.log(password);
+
+
+let {username : user , password : pass} = students;
+
+console.log(user);
+console.log(pass);
+
+
+let {username : user1 , password : pass2 , city = "pune"} = students;
+console.log(city);
+
+let {city : place = "pune"} = students;
+console.log(place);

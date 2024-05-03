@@ -192,3 +192,16 @@ obj = {
 }
 
 console.log(obj);
+
+// Rest  
+console.log();
+console.log("*******************   REST  **********************");
+console.log();
+
+function sum(...args){
+    for(let i = 0 ; i< args.length ; i++){
+        console.log(`you gave me ${args[i]}`);
+    }
+}
+
+sum(1,2,34,5,6,7,7);

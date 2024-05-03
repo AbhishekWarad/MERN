@@ -1,7 +1,7 @@
 // ARRAY METHODS
 
 
-// 1. For each
+// 1. For each - mutable / does not return.
 let arr = [1,2,3,4,5];
 
 function print(el){
@@ -28,18 +28,18 @@ let arr1 = [
 
 console.log(arr1);
 
-let  b =arr1.forEach((i) => {
+let b = arr1.forEach((i) => {
     console.log(i.name )
     console.log(i.marks )
     i.city = "ka32";
     console.log(i.city);
     //console.log(i)
-    //return i;
+    return i;
 });
 
 console.log(arr1);
 
-// 2.Map
+// 2. Map - returns an array
 console.log();
 console.log("*******************   MAP  **********************");
 console.log();
@@ -47,10 +47,10 @@ console.log();
 
 let arr3 = [1,2,3,4];
 
-let double = arr3.map(function(el){
+let  double =arr3.map(function(el){
     return el*2;
 })
-
+console.log(arr3);
 console.log(double);
 
 let student = [
@@ -70,7 +70,8 @@ let student = [
 
 
 let res =student.map((i)=>{
-    return i.name = "warad";
+    //return i.name = "warad";
+    return i;
 })
 
 console.log(res);
@@ -105,7 +106,7 @@ console.log(c);
 console.log();
 console.log("*******************   REDUCE  **********************");
 console.log();
-let d =[1,2,3,4].reduce((res , el) => (res + el ));
+let d =[1,2,3,4].reduce((res , el) => (res * el ));
 console.log(d);
 
 

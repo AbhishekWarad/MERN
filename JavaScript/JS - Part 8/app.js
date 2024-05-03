@@ -226,3 +226,19 @@ function min(msg , ...args){
 res = min("minimum no is : ",34,12,5,6,32,12,4,1,54,3);
 console.log(res);
 
+// destructuring  
+console.log();
+console.log("*******************   DESTRUCTURING  **********************");
+console.log();
+
+let names = ["tony" , "bruce" , "xyz" , "abc"];
+
+let [winner , runnerup] = names;
+
+console.log(winner, runnerup);
+
+let [winners , ...others] = names;
+
+console.log("winners :",winners);
+
+console.log("others :",others)

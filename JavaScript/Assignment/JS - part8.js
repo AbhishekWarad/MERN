@@ -14,10 +14,11 @@ console.log(averageOfarr);
 
 // Create a new array using the map function whose each Element is equal to the original element plus 5
 
+arr = [1,2,3,4,5];
 
+let plusFiveOfarr = arr.map((el) => (el+5));
 
-
-
+console.log(plusFiveOfarr);
 
 
 

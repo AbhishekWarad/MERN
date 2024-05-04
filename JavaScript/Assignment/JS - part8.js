@@ -21,6 +21,16 @@ let plusFiveOfarr = arr.map((el) => (el+5));
 console.log(plusFiveOfarr);
 
 
+// Create a new array whose elements are in uppercase of words present in the original array.
+
+arr = ['abhishek', 'adarsh' , 'pream' ];
+
+let uppercaseOf = arr.map((el) => (el.toUpperCase()));
+
+console.log(uppercaseOf);
+
+
+
 
 
 

@@ -30,9 +30,18 @@ let uppercaseOf = arr.map((el) => (el.toUpperCase()));
 console.log(uppercaseOf);
 
 
+// Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments.
+//The function should return a new array with the original array values and all of the additional arguments doubled.
 
+function doubleAndReturnArgs(arr , ...args){
+    args = args.map((el) => (el*2));
+    let result = [...arr,...args];
+    return result;
+}
 
+let res = doubleAndReturnArgs([1,2,3,4,5] , 3,5,6,87,5,3,1);
 
+console.log(res);
 
 
 

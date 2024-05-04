@@ -43,10 +43,30 @@ let res = doubleAndReturnArgs([1,2,3,4,5] , 3,5,6,87,5,3,1);
 
 console.log(res);
 
+//Write a function called mergeObjects that accepts two objects and return a new object
+// which contains all the keys and values of the first object and second object.
 
 
+function mergeObjects(a , b){
+    let c = {...a , ...b} ;
+    return c;
+}
 
+let obj1 = {
+    name : "abhishek",
+    age : 23,
+    gender : "male",
+}
 
+let obj2 = {
+    first_name : "adarsh", 
+    ages : 24,
+    male_or_female : "female",
+}
+
+res = mergeObjects(obj1, obj2);
+
+console.log(res);
 
 
 

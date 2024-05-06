@@ -1,6 +1,11 @@
-let res = document.getElementsByClassName("oldImg");
+let links = document.querySelectorAll('.box a');
 
-for(let i=0 ; i<res.length ; i++){
-    console.dir(res[i].src);
-    res[i].src = res[0].src;
+// for(i = 0 ; i < links.length ; i++){
+//     links[i].style.color = 'red';
+// }
+
+for(link of links){
+
+    console.log(link);
+    link.style.color = 'yellow';
 }

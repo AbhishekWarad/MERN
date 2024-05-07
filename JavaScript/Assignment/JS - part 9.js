@@ -18,3 +18,8 @@ button.setAttribute("id" , "btn");
 
 //QS-3
 
+document.querySelector('#btn').classList.add("btn_color");
+
+
+//QS-4
+

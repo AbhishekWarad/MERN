@@ -23,3 +23,8 @@ document.querySelector('#btn').classList.add("btn_color");
 
 //QS-4
 
+let h1 = document.createElement("h1");
+body.append(h1);
+h1.innerText = "DOM Practice";
+
+h1.classList.add("under")

@@ -21,18 +21,36 @@
 // }
 
 
-let btns = document.querySelectorAll('button');
+// let btns = document.querySelectorAll('button');
 
-for(btn of btns){
-    btn = addEventListener("click" , sayHello);
-    btn = addEventListener("click" , printBye);
+// for(btn of btns){
+//     btn = addEventListener("click" , sayHello);
+//     btn = addEventListener("click" , printBye);
 
+// }
+
+// function sayHello() {
+//     alert("hello!");
+// }
+
+// function printBye(){
+//     console.log("your mouse enterd on button!")
+// }
+
+
+
+let h1 = document.querySelector('h1');
+let h3 = document.querySelector('h3');
+let p = document.querySelector('p');
+let btn = document.querySelector('button');
+
+
+function changeColor(){
+    this.style.backgroundColor = "blue";
+    console.log(this.innerText);
 }
 
-function sayHello() {
-    alert("hello!");
-}
-
-function printBye(){
-    console.log("your mouse enterd on button!")
-}
+h1.addEventListener("mouseenter" , changeColor);
+h3.addEventListener("mouseenter" , changeColor);
+p.addEventListener("mouseenter" , changeColor);
+btn.addEventListener("mouseenter" , changeColor);

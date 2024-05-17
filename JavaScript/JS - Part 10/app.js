@@ -54,3 +54,24 @@ h1.addEventListener("mouseenter" , changeColor);
 h3.addEventListener("mouseenter" , changeColor);
 p.addEventListener("mouseenter" , changeColor);
 btn.addEventListener("mouseenter" , changeColor);
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit" , function (event) {
+    event.preventDefault();
+    // console.dir(form);
+
+    let user = this.elements[0].value;
+    let pass = this.elements[1].value;
+
+    console.log(user);
+    console.log(pass);
+
+    // let input = document.querySelectorAll("input");
+    // console.log(input.value);
+
+    // input.forEach(element => {
+    //     console.log(element.value)
+    // });
+
+})

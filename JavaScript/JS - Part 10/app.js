@@ -39,39 +39,64 @@
 
 
 
-let h1 = document.querySelector('h1');
-let h3 = document.querySelector('h3');
-let p = document.querySelector('p');
-let btn = document.querySelector('button');
+// let h1 = document.querySelector('h1');
+// let h3 = document.querySelector('h3');
+// let p = document.querySelector('p');
+// let btn = document.querySelector('button');
 
 
-function changeColor(){
-    this.style.backgroundColor = "blue";
-    console.log(this.innerText);
-}
+// function changeColor(){
+//     this.style.backgroundColor = "blue";
+//     console.log(this.innerText);
+// }
 
-h1.addEventListener("mouseenter" , changeColor);
-h3.addEventListener("mouseenter" , changeColor);
-p.addEventListener("mouseenter" , changeColor);
-btn.addEventListener("mouseenter" , changeColor);
+// h1.addEventListener("mouseenter" , changeColor);
+// h3.addEventListener("mouseenter" , changeColor);
+// p.addEventListener("mouseenter" , changeColor);
+// btn.addEventListener("mouseenter" , changeColor);
 
-let form = document.querySelector("form");
+// let form = document.querySelector("form");
 
-form.addEventListener("submit" , function (event) {
-    event.preventDefault();
-    // console.dir(form);
+// form.addEventListener("sumbit" , function (event) {
+//     event.preventDefault();
 
-    let user = this.elements[0].value;
-    let pass = this.elements[1].value;
+//     // let para = document.querySelector("#para");
+//     // let input = document.querySelector("#text");
 
-    console.log(user);
-    console.log(pass);
+//     // para.innerText = "input";
 
-    // let input = document.querySelectorAll("input");
-    // console.log(input.value);
 
-    // input.forEach(element => {
-    //     console.log(element.value)
-    // });
+//     // console.dir(form);
 
-})
+//     // let user = this.elements[0].value;
+//     // let pass = this.elements[1].value;
+
+//     // console.log(user);
+//     // console.log(pass);
+
+//     // let input = document.querySelectorAll("input");
+//     // console.log(input.value);
+
+//     // input.forEach(element => {
+//     //     console.log(element.value)
+//     // });
+
+// });
+
+//form = document.querySelector("form");
+// form.addEventListener("submit" , function(event){
+//     event.preventDefault;
+//     console.dir(form);
+// })
+
+
+
+let para = document.querySelector("#p");
+let input = document.querySelector("#u");
+
+input.addEventListener("input", function(event) {
+    console.dir
+    // para.innerText = "user.value";
+    console.log(this.value);
+});
+
